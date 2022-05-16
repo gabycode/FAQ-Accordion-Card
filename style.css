@@ -127,6 +127,10 @@ picture.image-shadow-faq img {
     color: hsl(228, 45%, 44%);
 }
 
+.box {
+    display: none;
+}
+
 @media (min-width: 1440px) {
     .wrapper {
         width: 80em;
@@ -138,17 +142,16 @@ picture.image-shadow-faq img {
         grid-gap: 4.2rem;
         background-image: url(./images/bg-pattern-desktop.svg);
         background-repeat: no-repeat;
-        background-position: 1100% 60%;
+        background-position: 1200% 60%;
         transform: translate(1.75em, -1.85em);
         position: relative;
     }
 
-    .image-wrapper {
-        position: relative;
-        background-image: url(./images/illustration-box-desktop.svg);
-        height: 100%;
-        background-repeat: no-repeat;
-        background-position: 120% 60%;
+    .box {
+        display: block;
+        position: absolute;
+        top: 40%;
+        left: -10%;
     }
 
     .image-wrapper-main {
