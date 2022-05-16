@@ -158,7 +158,7 @@ picture.image-shadow-faq img {
         background-image: url(./images/illustration-woman-online-desktop.svg);
         height: 100%;
         background-repeat: no-repeat;
-        background-position: 120% center;
+        background-position: 117% 45%;
     }
 
     picture.image-woman-faq img {
@@ -181,6 +181,11 @@ picture.image-shadow-faq img {
 
     .question > h3 {
         font-size: 1.175rem;
+        transition: 0.3s;
+    }
+
+    .question > h3:hover {
+        color: #CC8F00;
     }
 
     .question > img {
