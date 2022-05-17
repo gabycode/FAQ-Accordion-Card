@@ -68,7 +68,7 @@ picture.image-shadow-faq img {
     cursor: pointer;
 }
 
-.question h3 {
+.question h2 {
     font-size: 1.1025rem;
     color: hsl(237, 12%, 33%);
     font-weight: 400;
